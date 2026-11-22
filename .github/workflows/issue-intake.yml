@@ -3,8 +3,6 @@ name: Issue Intake
 on:
   issues:
     types: [opened, edited, reopened]
-  schedule:
-    - cron: "41 7 * * *"
   workflow_dispatch:
 
 permissions:
